@@ -8,4 +8,4 @@ def index():
 
 @app.route('/latest')
 def get_image():
-    return send_file('/home/pi/astrophotography/image-server/public/latest.jpg', mimetype='image/jpeg')
+    return send_file('./public/latest.jpg', mimetype='image/jpeg')

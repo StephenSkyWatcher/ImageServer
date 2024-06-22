@@ -1,1 +1,1 @@
-export FLASK_APP=app && flask run
+export FLASK_APP=src/app && flask run
